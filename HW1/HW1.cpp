@@ -1,6 +1,6 @@
 #include <iostream> //library for input and output 
 #include <string> //for string 
-#include <iomanip> //for setw() and formatting
+#include <iomanip> //for formatting
 using namespace std; //meant to prevent name conflicts 
 
 //Homework Question 1
