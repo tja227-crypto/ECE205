@@ -18,6 +18,7 @@ float state_tax; //state tax
 float bethlehem_tax; //bethlehem city tax 
 float union_fees; //union fees
 float health_fees; //health fees
+//Homework Question 3
 float balance; //loan amount also the same as the balance 
 float principal; //principal
 float interest_rate; //interest rate
