@@ -58,7 +58,7 @@ int main() {
         gross_pay = hours_worked * rate;
         cout.setf(ios::fixed); //sets the float to fixed
         cout.setf(ios::showpoint); //shows the decimal point
-        cout.precision(2); //sets the precision to 4 decimal places
+        cout.precision(2); //sets the precision to 2 decimal places
         cout << "Gross pay is: $" << gross_pay << endl;
     }
     else { 
@@ -66,7 +66,7 @@ int main() {
         gross_pay = (40 * rate) + ((hours_worked - 40) * rate * overtime_rate);
         cout.setf(ios::fixed); //sets the float to fixed
         cout.setf(ios::showpoint); //shows the decimal point
-        cout.precision(2); //sets the precision to 4 decimal places
+        cout.precision(2); //sets the precision to 2 decimal places
         cout << "Gross pay is: $" << gross_pay << endl;
     }
     //dependents and tax calculation
@@ -80,7 +80,7 @@ int main() {
         float net_pay = gross_pay - (ss_tax + fed_tax + state_tax + bethlehem_tax + union_fees + health_fees);
         cout.setf(ios::fixed); //sets the float to fixed
         cout.setf(ios::showpoint); //shows the decimal point
-        cout.precision(2); //sets the precision to 4 decimal places
+        cout.precision(2); //sets the precision to 2 decimal places
         cout << "Social Security Tax: $" << ss_tax << endl;
         cout << "Federal Income Tax: $" << fed_tax << endl;
         cout << "State Tax: $" << state_tax << endl;
@@ -99,7 +99,7 @@ int main() {
         float net_pay = gross_pay - (ss_tax + fed_tax + state_tax + bethlehem_tax + union_fees);
         cout.setf(ios::fixed); //sets the float to fixed
         cout.setf(ios::showpoint); //shows the decimal point
-        cout.precision(2); //sets the precision to 4 decimal places
+        cout.precision(2); //sets the precision to 2 decimal places
         cout << "Social Security Tax: $" << ss_tax << endl;
         cout << "Federal Income Tax: $" << fed_tax << endl;
         cout << "State Tax: $" << state_tax << endl;
