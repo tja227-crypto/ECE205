@@ -1,2 +1,0 @@
-The average is: 300.00
-The standard deviation is: 141.42
